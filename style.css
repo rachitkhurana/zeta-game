@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #cecece;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.game-board {
+    padding: 24px;
+
+}
+.game-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-cell {
+    border: 0.5px solid #000000;
+    width: 80px;
+    height: 80px;
+    padding: 1px;;
+}
+
+.game-cell:first-child {
+    border-left: 1px solid #000000;
+}
+
+.game-cell.treat {
+    background: red;
+}
+
+.snake-pos {
+    background: #000;
+}
+
+.footer {
+    background-color: #cecece;
+    padding: 24px;
+}
+
